@@ -202,13 +202,13 @@ export default function DashboardPage() {
             </div>
 
         
-            <button
+            {/* <button
               onClick={() => navigate('/profile/edit')}
               className="w-full py-2.5 rounded-xl text-xs font-bold text-neutral-400 cursor-pointer transition-all border border-neutral-800 hover:border-neutral-600 hover:text-white"
               style={{ background: 'transparent' }}
             >
               ✏️ Edit Profile
-            </button>
+            </button> */}
 
           </div>
 
