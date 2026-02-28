@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { problemAPI, submissionAPI } from '../utils/api';
 import SubmissionModal from '../components/submissionModal';
 import { useAuth } from "@clerk/clerk-react";
-import SubmissionDetailPanel from '../components/SubmissionDetailPanel';
+import SubmissionDetailPanel from '../components/Submissiondetailpanel';
 
 const PAIN_META = {
   'safety-risk':        { label: 'Safety Risk',       bgClass: 'bg-red-950/60',    textClass: 'text-red-400',    borderClass: 'border-red-900/60'    },
